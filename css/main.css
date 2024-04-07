@@ -1,3 +1,24 @@
+html {
+    /* min-height: 1000px; */
+    height: 1000px;
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+body{
+    min-height: 1000px;
+    min-width: 1280px;
+    margin: 0;
+    padding: 0;
+} 
+
+
+
 .nav{
     display: flex;
     padding: 1rem;
@@ -82,8 +103,24 @@ background-color: #FEFAF5;
 .footer__titles{
     color: #335576;
     display: flex;
-    justify-content:space-evenly ;
+    justify-content: space-evenly; 
+}
+
+.footer__subtitles{
+    color: #DB7A4E;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 0.675rem;
+    /* align-items: stretch; */
     
+}
+
+.footer__info{
+    color: #335576;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: normal;
 }
 
 
