@@ -1,0 +1,95 @@
+.nav{
+    display: flex;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    color: #335576;
+    align-items: center;
+    margin-left: 2rem;
+    /* position: fixed;    */
+}
+
+.nav__list{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    background-color: #fff;
+    padding: 1rem;
+    margin: 0;
+}
+
+.nav__item{
+    list-style-type: none;
+    font-size: 0.675rem;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.nav__link{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__item--active{
+    border-bottom: 3px solid #DB7A4E;
+    font-size: 10.8px;
+}
+
+
+.hero{
+    background-color:#FEFAF5;
+    display: flex;
+    padding: 1rem;
+    margin: 0;
+    margin-left: 2rem;
+}
+.hero__title{
+    color: #335576;
+    
+    }
+.hero__button{
+    
+    background-color: #DB7A4E;
+    color: #FFFFFF;
+}
+
+.hero__img{
+    width: 100%;
+    
+}
+
+.recs{
+    display: flex;
+    
+}
+.recs__title{
+    color: #335576;
+}
+
+.recs__card{
+    width: 5em;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    background-color: #fff;
+    width: 30%;
+}
+
+.footer{
+background-color: #FEFAF5;
+}
+.footer__titles{
+    color: #335576;
+    display: flex;
+    justify-content:space-evenly ;
+    
+}
+
+
+
+
+
+
+/* footer
+fixed positioning to stay below */
