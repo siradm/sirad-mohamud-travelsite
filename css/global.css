@@ -1,85 +1,3 @@
-/* :root{
-    font-size: 10px;
-}
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    font-family: 'Verdana';
-} */
-
-/* .nav{
-    display: flex;
-    padding: 1rem;
-    background-color: #FFFFFF;
-    justify-content: space-between;
-    color: #335576;
-    align-items: center;
-    margin-left: 2rem;   
-}
-
-.nav__list{
-    display: flex;
-    justify-content: flex-end;
-    /* text-decoration: none; */
-    /* list-style: none;
-    background-color: #fff;
-    padding: 1rem;
-    margin: 0;
-    /* border: 2px solid red; */
-/* } */
-
-/* .nav__item{
-    list-style-type: none;
-    font-size: 0.675rem;
-    margin-left: 1rem;
-    text-decoration: none;
-}
-
-.nav__link{
-    text-decoration: none;
-    color: black;
-}
-
-.nav__item--active{
-    border-bottom: 3px solid #DB7A4E;
-    font-size: 10.8px;
-} */
-
-
-/* .hero{
-    background-color:#FEFAF5;
-    padding-top: 2rem;
-    display: flex;
-}
-.hero__title{
-    color: #335576; */
-    
-    /* }
-.hero__button{
-    
-    background-color: #DB7A4E;
-    color: #FFFFFF;
-}
-
-.logo{
-    align-items: right;
-    
-/* } */ 
-
-
-
-
-
-
-/* footer
-fixed positioning to stay below */
-
 
 :root {
     font-size: 10px;
@@ -95,33 +13,24 @@ body {
     font-family: "Verdana";
     font-size: 1.6rem;
 }
-  /* h1, h2, h3 color */
+
 :is(h1, h2),
   .nav > h3 > a {
     color: #335576;
 }
-  
-  /* Navigation  */
+
 .nav {
     display: flex;
     justify-content: space-between;
     background-color: #fff;
     padding: 2rem;
     margin: 0rem 8rem;
-    position: fixed;
-    z-index: 10;
-    flex-direction: row;
-    top: 0;
-    right: 0;
-    left: 0;
 }
   
-  /* Removes underline all links in nav */
 .nav a {
     text-decoration: none;
 }
-  
-  /* Column-gap adjusts spacing between nav links */
+
 .nav__list {
     display: flex;
     justify-content: space-evenly;
@@ -132,20 +41,18 @@ body {
 .nav__list a {
     color: #000;
 }
-  /* Active Page Modifier */
+  
   .nav__list__active {
     border-bottom: 0.5rem solid #db7a4e;
     padding-bottom: 1rem;
 }
-  
-  /* Destination and Contact Form */
+   
 :is(.destination, .contact-us) {
     padding: 6rem;
     background-position: 20% 52%;
     background-size: cover;
 }
   
-  /* Destination and Contact Form Heading */
 :is(.recommendation, .contact-us) > h1 {
     font-size: 6rem;
     color: #fff;
@@ -153,7 +60,7 @@ body {
     margin-bottom: 4rem;
 }
   
-  /* Footer */
+
 footer {
     background-color: #fefaf5;
 }
@@ -163,33 +70,31 @@ footer {
     justify-content: space-around;
     width: 75vw;
     margin: auto;
-    padding: 4rem 0px 6rem;
+    padding: 2rem;
     color: #335576;
 }
   
-  /* Company Info & Social Media - Width */
 .company__info:first-child {
     flex-basis: 18%;
 }
   
-  /* Company Hours - Width */
 .company__info__days {
     flex-basis: 47%;
 }
-  
-  /* Daily Hours, Hours, contact */
+
 :is(.company__info__contact, .company__info__hours, .company__info__social__media) {
     list-style: none;
     margin-top: 2rem;
+
 }
   
-  /* Makes the Store Info and Social Media Cards flex-direction: row */
 :is(.company__info__hours__footer, .company__info__social__media) {
     display: flex;
+    justify-content: center;
+    flex-flow: row;
     column-gap: 2.5rem;
 }
   
-  /* company-info__contact a Targets the first li element */
 :is(.company__info__contact, .company__info__hours) > li:first-child {
     font-size: 1.2rem;
     color: #db7a4e;
@@ -197,12 +102,16 @@ footer {
     text-transform: uppercase;
 }
   
-  /* Social Media Images */
-ul.company__info__social__media img {
+.company__info__social__media img {
     min-width: 1.8rem;
     max-height: 3rem;
 }
   
 .company__info:last-child > h2 {
     margin-bottom: 4.5rem;
+   
+}
+
+.company__info__social__media{
+    padding-top: 2.5rem;
 }

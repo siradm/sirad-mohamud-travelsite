@@ -1,128 +1,4 @@
-/* html {
-    height: 1000px;
-    min-width: 1280px;
-    margin: 0;
-    padding: 0;
-}
 
-body{
-    min-height: 1000px;
-    min-width: 1280px;
-    margin: 0;
-    padding: 0;
-} 
-
-.nav{
-    display: flex;
-    padding: 1rem;
-    background-color: #FFFFFF;
-    justify-content: space-between;
-    color: #335576;
-    align-items: center;
-    margin-left: 2rem;
-}
-
-.nav__list{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    background-color: #fff;
-    padding: 1rem;
-    margin: 0;
-}
-
-.nav__item{
-    list-style-type: none;
-    font-size: 0.675rem;
-    margin-left: 1rem;
-    text-decoration: none;
-}
-
-.nav__link{
-    text-decoration: none;
-    color: black;
-}
-
-.nav__item--active{
-    border-bottom: 3px solid #DB7A4E;
-    font-size: 10.8px;
-}
-
-
-.hero{
-    background-color:#FEFAF5;
-    display: flex;
-    padding: 1rem;
-    margin: 0;
-    margin-left: 2rem;
-}
-.hero__title{
-    color: #335576;
-    
-    }
-.hero__button{
-    
-    background-color: #DB7A4E;
-    color: #FFFFFF;
-}
-
-.hero__img{
-    width: 100%;
-    
-}
-.hero__img img{
-    min-height: 8rem;
-    max-height: 21.875rem;
-}
-.recs{
-    display: flex;
-    
-}
-.recs__title{
-    color: #335576;
-}
-
-.recs__card{
-    width: 5em;
-    padding: 1rem;
-    margin-right: 1rem;
-    margin-top: 1rem;
-    margin-left: 1rem;
-    background-color: #fff;
-    width: 30%;
-}
-
-.footer{
-background-color: #FEFAF5;
-}
-.footer__titles{
-    color: #335576;
-    display: flex;
-    justify-content: space-evenly; 
-}
-
-.footer__subtitles{
-    color: #DB7A4E;
-    text-transform: uppercase;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 0.675rem;
-    
-}
-
-.footer__info{
-    color: #335576;
-    display: flex;
-    justify-content: space-evenly;
-    font-weight: normal;
-}
- */
-
-/* . nav {
-
-} */
-
- /* Hero Section */
 .nav__hero {
     display: flex;
     justify-content: space-around;
@@ -131,14 +7,12 @@ background-color: #FEFAF5;
     padding: 6rem;
     margin: auto;
 }
-  
-  /* Hero Content Container */
+
 .nav__hero__about {
     min-width: 35%;
     max-width: 52%;
 }
   
-  /* Hero Content - Content*/
 .nav__hero__about > h1 {
     font-size: 4.2rem;
     margin-bottom: 3rem;
@@ -149,13 +23,11 @@ background-color: #FEFAF5;
     margin-bottom: 3rem;
 }
   
-  /* Hero-Image */
 .hero__img {
     max-width: 35%;
     min-width: 25%;
 }
   
-  /* Hero - Get Started Button */
 .hero__button {
     background-color: #db7a4e;
     font-size: 1.8rem;
@@ -166,12 +38,6 @@ background-color: #FEFAF5;
     color:#fff
 }
   
-  /* .nav-hero__button a {
-    text-decoration: none;
-    color: #fff;
-  } */
-  
-  /* Recommendations */
 main {
     padding: 4rem;
     margin: 0rem 6rem;
@@ -181,7 +47,6 @@ main > h2 {
     margin-bottom: 3rem;
 }
   
-  /* Destination Card */
 .recommendation__titles{
     display: flex;
     justify-content: center;
@@ -195,18 +60,13 @@ main > h2 {
     cursor: pointer;
 }
   
-  /* Destination Card */
 .recommendation__card {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 21vw;
     height: 55vh;
-    /* Border */
-    /* width / style / color */
     border: 0.1rem solid rgba(0 0 0 / 0.5);
-    /* Box-Shadow */
-    /* x-axis / y-axis - blur - radius - color / opacity */
     box-shadow: 0rem 0.4rem 0.4rem rgba(0 0 0 / 0.2);
     border-radius: 0.5rem;
     background-size: cover;
@@ -216,23 +76,19 @@ main > h2 {
     
 }
   
-  /* Destination Card Heading */
 .recommendation__card > h2 {
     color: #fff;
     margin: 2rem;
 }
   
-  /* Hawaii Background */
 .recommendation__place__hawaii {
     background-image: url("../assets/images/hawaii.jpg");
 }
   
-  /* Iceland background */
 .recommendation__place__iceland {
     background-image: url("../assets/images/iceland.jpg");
 }
   
-  /* Greece Background */
 .recommendation__place__greece {
     background-image: url("../assets/images/greece.jpg");
 }

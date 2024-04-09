@@ -1,28 +1,29 @@
-/* Destination Backgrounds */
-/* Hawaii */
-.recommendation__hawaii {
+
+.recommendation--hawaii {
     background-image: url("../assets/Images/hawaii.jpg");
 }
   
-  /* Iceland */
 .recommendation__iceland {
     background-image: url("../assets/Images/iceland.jpg");
 }
   
-  /* Greece */
 .recommendation__greece {
     background-image: url("../assets/Images/greece.jpg");
 }
   
-  /* Itinerary Cards Container*/
 .recommendation__container {
     display: flex;
     justify-content: center;
     margin: auto;
     column-gap: 4rem;
 }
-  
-  /* Itinerary Cards   */
+.recommendation{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 .recommendation__card {
     width: 23%;
     background-color: #fff;
@@ -38,7 +39,7 @@
 }
   
 .recommendation__card__plan > li {
-    background-color: #fefaf5;
+    background-color: #FEFAF5;
     list-style: none;
     padding: 1rem 2rem;
     margin-top: 2rem;
@@ -47,3 +48,4 @@
 .recommendation__card__plan > li:last-child {
     margin-bottom: 8rem;
 }
+
